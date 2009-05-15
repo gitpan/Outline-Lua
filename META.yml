@@ -1,5 +1,5 @@
 ---
-abstract: 'Not Inline!'
+abstract: 'Run Lua code from a string, rather than embedded.'
 author:
   - 'Alastair Douglas <altreus@perl.com>'
 build_requires:
@@ -31,4 +31,4 @@ requires:
   overload: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
