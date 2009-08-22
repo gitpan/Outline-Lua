@@ -315,6 +315,9 @@ new()
   CODE:
     L = lua_open();
     luaopen_base(L);
+    luaopen_table(L);
+    luaopen_string(L);
+    luaopen_math(L);
     dec_these_refs = newAV();
 
     self = (lua_Object*) malloc(sizeof(lua_Object));

@@ -6,7 +6,7 @@ use strict;
 use Scalar::Util qw( looks_like_number );
 use List::Util qw( first );
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 our $TRUE    = Outline::Lua::Boolean->true;
 our $FALSE   = Outline::Lua::Boolean->false;
 

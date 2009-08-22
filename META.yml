@@ -8,6 +8,7 @@ build_requires:
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.42
+  ExtUtils::PkgConfig: 1.12
 distribution_type: module
 generated_by: 'Module::Install version 0.87'
 license: perl
@@ -22,7 +23,7 @@ no_index:
 provides:
   Outline::Lua:
     file: lib/Outline/Lua.pm
-    version: 0.10
+    version: 0.11
   Outline::Lua::Boolean:
     file: lib/Outline/Lua.pm
 requires:
@@ -31,4 +32,4 @@ requires:
   overload: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.10
+version: 0.11
